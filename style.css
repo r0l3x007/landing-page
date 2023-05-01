@@ -9,22 +9,27 @@ body{
 .header{
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdrcont{
+    display: flex;
+    background-color: #1F2937;
+    flex: 1;
     justify-content: space-between;
+    align-items: center;
     padding:10px 40px;
+    max-width: 1750px;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    display: flex;
-    align-items: center;
+
     font-weight: 600;
 }
 
-.links{
-    display: flex;
-    align-items: center;
-}
 
 ul{
     font-size: 18px;
@@ -39,6 +44,8 @@ ul{
 .hero1{
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
@@ -72,6 +79,7 @@ ul{
     padding:40px;
 }
 
+
 .plcimg1{
     display:flex;
     width:auto;
@@ -92,7 +100,8 @@ ul{
 .hrowrapper2{
     display:flex;
     justify-content: center;
-    gap:15px;
+    flex-wrap: wrap;
+    gap:40px;
     padding-bottom: 40px;
 }
 
@@ -100,4 +109,90 @@ ul{
     border-style:solid;
     border-color:#3882F6;
     border-radius: 8px;
+}
+
+.text{
+    max-width: 200px;
+    text-align: center;
+}
+
+.hero3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB;
+}
+
+.hro3txtcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding:100px;
+    max-width: 900px;
+}
+
+.text3{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.text4{
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.hero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.hrowrapper3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 30px;
+    border-radius: 10px;
+    gap:40px;
+}
+
+.disclaimer{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.text5{
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.button2{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9FAF8;
+    text-align: center;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    height: 30px;
+    width: 130px;
+    box-shadow: none;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
